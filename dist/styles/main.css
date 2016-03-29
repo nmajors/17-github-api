@@ -1,0 +1,121 @@
+.container {
+  padding-left: 100px;
+  padding-right: 100px; }
+
+i {
+  float: left;
+  margin-right: 10px;
+  margin-top: 12px; }
+
+header {
+  background-color: #eee;
+  padding-bottom: 10px; }
+
+#headerLeft {
+  float: left;
+  display: inline-block;
+  margin-top: 10px;
+  line-height: 2; }
+  #headerLeft .btn {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black; }
+
+#headerRight {
+  float: right;
+  display: inline-block;
+  margin-top: 10px;
+  line-height: 2; }
+
+.sidebarLeft {
+  margin-top: 20px; }
+  .sidebarLeft h1 {
+    margin-top: 10px;
+    margin-bottom: 5px; }
+  .sidebarLeft h5 {
+    margin-top: 0; }
+
+#profilePic {
+  width: 230px; }
+  #profilePic img {
+    border-radius: 5px; }
+
+.container {
+  padding-left: 100px;
+  padding-right: 100px; }
+
+i {
+  float: left;
+  margin-right: 10px;
+  margin-top: 12px; }
+
+header {
+  background-color: #eee;
+  padding-bottom: 10px; }
+
+#headerLeft {
+  float: left;
+  display: inline-block;
+  margin-top: 10px;
+  line-height: 2; }
+  #headerLeft .btn {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black; }
+
+#headerRight {
+  float: right;
+  display: inline-block;
+  margin-top: 10px;
+  line-height: 2; }
+
+.sidebarLeft {
+  margin-top: 20px; }
+  .sidebarLeft h1 {
+    margin-top: 10px;
+    margin-bottom: 5px; }
+  .sidebarLeft h5 {
+    margin-top: 0; }
+
+#profilePic {
+  width: 230px; }
+  #profilePic img {
+    border-radius: 5px; }
+
+i {
+  float: left;
+  margin-right: 10px;
+  margin-top: 12px; }
+
+header {
+  background-color: #eee;
+  padding-bottom: 10px; }
+
+#headerLeft {
+  float: left;
+  display: inline-block;
+  margin-top: 10px;
+  line-height: 2; }
+  #headerLeft .btn {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black; }
+
+#headerRight {
+  float: right;
+  display: inline-block;
+  margin-top: 10px;
+  line-height: 2; }
+
+.sidebarLeft {
+  margin-top: 20px; }
+  .sidebarLeft h1 {
+    margin-top: 10px;
+    margin-bottom: 5px; }
+  .sidebarLeft h5 {
+    margin-top: 0; }
+
+#profilePic {
+  width: 230px; }
+  #profilePic img {
+    border-radius: 5px; }

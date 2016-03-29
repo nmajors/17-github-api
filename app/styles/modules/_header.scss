@@ -1,0 +1,29 @@
+i {
+  float: left;
+  margin-right: 10px;
+  margin-top: 12px;
+}
+
+header{
+  background-color: #eee;
+  padding-bottom: 10px;
+}
+
+#headerLeft {
+  float: left;
+  display: inline-block;
+  margin-top: 10px;
+  line-height: 2;
+  .btn{
+  text-decoration: none;
+  font-weight:bolder;
+  color:black;
+  }
+}
+
+#headerRight {
+  float: right;
+  display: inline-block;
+  margin-top: 10px;
+  line-height: 2;
+}
