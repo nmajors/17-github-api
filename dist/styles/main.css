@@ -2,7 +2,33 @@
   padding-left: 100px;
   padding-right: 100px; }
 
-i {
+.info {
+  float: right;
+  font-size: 1.25rem; }
+
+.nameInfo {
+  border-bottom: 1px solid #ddd; }
+
+.userInfo {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+#name {
+  font-size: 2.5rem; }
+
+#username {
+  color: #666; }
+
+.fa-star, .fa-code-fork {
+  margin: 5px 5px 5px 15px; }
+
+.repo {
+  font-size: 2rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd; }
+
+.fa-github {
   float: left;
   margin-right: 10px;
   margin-top: 12px; }
@@ -44,7 +70,33 @@ header {
   padding-left: 100px;
   padding-right: 100px; }
 
-i {
+.info {
+  float: right;
+  font-size: 1.25rem; }
+
+.nameInfo {
+  border-bottom: 1px solid #ddd; }
+
+.userInfo {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+#name {
+  font-size: 2.5rem; }
+
+#username {
+  color: #666; }
+
+.fa-star, .fa-code-fork {
+  margin: 5px 5px 5px 15px; }
+
+.repo {
+  font-size: 2rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd; }
+
+.fa-github {
   float: left;
   margin-right: 10px;
   margin-top: 12px; }
@@ -82,7 +134,7 @@ header {
   #profilePic img {
     border-radius: 5px; }
 
-i {
+.fa-github {
   float: left;
   margin-right: 10px;
   margin-top: 12px; }
