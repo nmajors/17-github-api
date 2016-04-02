@@ -6,7 +6,12 @@
 
 header{
   background-color: #eee;
+  margin-bottom: 20px;
   padding-bottom: 10px;
+}
+
+#profilePicThumbnail {
+  width: 20px;
 }
 
 #headerLeft {
@@ -21,9 +26,28 @@ header{
   }
 }
 
+
+
 #headerRight {
   float: right;
   display: inline-block;
-  margin-top: 10px;
   line-height: 2;
+  margin-top: 5px;
+}
+
+#navPlusButton{
+  text-decoration: none;
+  font-weight:bolder;
+  color:black;
+  background-color: #eee;
+  font-size: 2rem;
+  padding-bottom: 6px;
+}
+
+#picDropdownButton{
+  text-decoration: none;
+  font-weight:bolder;
+  color:black;
+  background-color: #eee;
+  padding: 0;
 }

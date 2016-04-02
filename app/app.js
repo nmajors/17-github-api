@@ -9,19 +9,36 @@ fetch("https://api.github.com/users/nmajors")
     console.log(response);
 
     document.querySelector("#profilePic").src = response.avatar_url;
+    document.querySelector("#profilePicThumbnail").src = response.avatar_url;
     document.querySelector("#name").textContent = response.name;
     document.querySelector("#username").textContent = response.login;
 
-    document.querySelector("#location").textContent = response.location;
-
-
     let blog = document.querySelector("#blog");
-    blog.textContent = response.blog;
-    blog.href = response.blog;
+    let blogIcon = document.createElement("i");
+      blogIcon.classList.add("fa");
+      blogIcon.classList.add("fa-link");
+      blog.appendChild(blogIcon);
+    let blogText = document.createTextNode(response.blog);
+      blog.appendChild(blogText);
+      blog.href=(response.blog);
+
+    let location = document.querySelector("#location");
+    let map = document.createElement("i");
+      map.classList.add("fa");
+      map.classList.add("fa-map-marker");
+      location.appendChild(map);
+    let locationText = document.createTextNode(response.location);
+      location.appendChild(locationText);
 
     let email = document.querySelector("#email");
-    email.textContent = response.email;
-    email.href = `mailto:${response.email}`;
+    let emailIcon = document.createElement("i");
+      emailIcon.classList.add("fa");
+      emailIcon.classList.add("fa-envelope-o");
+      email.appendChild(emailIcon);
+    let emailText = document.createTextNode(response.email);
+      email.appendChild(emailText);
+      email.href = `mailto:${response.email}`;
+
   });
 
   fetch ('https://api.github.com/users/nmajors/repos')

@@ -1,0 +1,41 @@
+.panel{
+  border: none;
+  padding: 5px 0;
+  height: 55px;
+  box-shadow: none;
+  margin-bottom: 5px;
+  .navbar-left{
+    padding-left: 0;
+  }
+  .navbar-right{
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    li{
+      display: inline-block;
+      padding: 15px 0px 10px 10px;
+
+    }
+  }
+}
+
+.info{
+  float: right;
+  font-size: 1.25rem;
+}
+
+
+
+
+.fa-star, .fa-code-fork {
+  margin: 5px 5px 5px 15px;
+}
+div.repo:nth-child(1){
+  border-top: 1px solid #ddd;
+}
+.repo {
+font-size: 2rem;
+padding-top: 30px;
+padding-bottom: 30px;
+border-bottom: 1px solid #ddd;
+}

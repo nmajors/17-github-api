@@ -2,32 +2,6 @@
   padding-left: 100px;
   padding-right: 100px; }
 
-.info {
-  float: right;
-  font-size: 1.25rem; }
-
-.nameInfo {
-  border-bottom: 1px solid #ddd; }
-
-.userInfo {
-  padding-top: 10px;
-  padding-bottom: 10px; }
-
-#name {
-  font-size: 2.5rem; }
-
-#username {
-  color: #666; }
-
-.fa-star, .fa-code-fork {
-  margin: 5px 5px 5px 15px; }
-
-.repo {
-  font-size: 2rem;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #ddd; }
-
 .fa-github {
   float: left;
   margin-right: 10px;
@@ -35,7 +9,11 @@
 
 header {
   background-color: #eee;
+  margin-bottom: 20px;
   padding-bottom: 10px; }
+
+#profilePicThumbnail {
+  width: 20px; }
 
 #headerLeft {
   float: left;
@@ -50,45 +28,183 @@ header {
 #headerRight {
   float: right;
   display: inline-block;
-  margin-top: 10px;
-  line-height: 2; }
+  line-height: 2;
+  margin-top: 5px; }
 
-.sidebarLeft {
-  margin-top: 20px; }
-  .sidebarLeft h1 {
-    margin-top: 10px;
-    margin-bottom: 5px; }
-  .sidebarLeft h5 {
-    margin-top: 0; }
+#navPlusButton {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  background-color: #eee;
+  font-size: 2rem;
+  padding-bottom: 6px; }
+
+#picDropdownButton {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  background-color: #eee;
+  padding: 0; }
 
 #profilePic {
-  width: 230px; }
-  #profilePic img {
-    border-radius: 5px; }
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #666; }
+
+.nameInfo {
+  border-bottom: 1px solid #ddd; }
+
+.userInfo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #ddd; }
+  .userInfo p, .userInfo a {
+    display: block;
+    margin-bottom: 0; }
+
+#name {
+  font-size: 2rem; }
+
+#username {
+  color: #666; }
+
+.fa-map-marker, .fa-link, .fa-envelope-o {
+  color: black;
+  margin: 5px 15px 5px 5px; }
+
+.panel {
+  border: none;
+  padding: 5px 0;
+  height: 55px;
+  box-shadow: none;
+  margin-bottom: 5px; }
+  .panel .navbar-left {
+    padding-left: 0; }
+  .panel .navbar-right {
+    display: inline-block;
+    list-style: none;
+    margin: 0; }
+    .panel .navbar-right li {
+      display: inline-block;
+      padding: 15px 0px 10px 10px; }
+
+.info {
+  float: right;
+  font-size: 1.25rem; }
+
+.fa-star, .fa-code-fork {
+  margin: 5px 5px 5px 15px; }
+
+div.repo:nth-child(1) {
+  border-top: 1px solid #ddd; }
+
+.repo {
+  font-size: 2rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd; }
 
 .container {
   padding-left: 100px;
   padding-right: 100px; }
 
-.info {
+.fa-github {
+  float: left;
+  margin-right: 10px;
+  margin-top: 12px; }
+
+header {
+  background-color: #eee;
+  margin-bottom: 20px;
+  padding-bottom: 10px; }
+
+#profilePicThumbnail {
+  width: 20px; }
+
+#headerLeft {
+  float: left;
+  display: inline-block;
+  margin-top: 10px;
+  line-height: 2; }
+  #headerLeft .btn {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black; }
+
+#headerRight {
   float: right;
-  font-size: 1.25rem; }
+  display: inline-block;
+  line-height: 2;
+  margin-top: 5px; }
+
+#navPlusButton {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  background-color: #eee;
+  font-size: 2rem;
+  padding-bottom: 6px; }
+
+#picDropdownButton {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  background-color: #eee;
+  padding: 0; }
+
+#profilePic {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #666; }
 
 .nameInfo {
   border-bottom: 1px solid #ddd; }
 
 .userInfo {
   padding-top: 10px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #ddd; }
+  .userInfo p, .userInfo a {
+    display: block;
+    margin-bottom: 0; }
 
 #name {
-  font-size: 2.5rem; }
+  font-size: 2rem; }
 
 #username {
   color: #666; }
 
+.fa-map-marker, .fa-link, .fa-envelope-o {
+  color: black;
+  margin: 5px 15px 5px 5px; }
+
+.panel {
+  border: none;
+  padding: 5px 0;
+  height: 55px;
+  box-shadow: none;
+  margin-bottom: 5px; }
+  .panel .navbar-left {
+    padding-left: 0; }
+  .panel .navbar-right {
+    display: inline-block;
+    list-style: none;
+    margin: 0; }
+    .panel .navbar-right li {
+      display: inline-block;
+      padding: 15px 0px 10px 10px; }
+
+.info {
+  float: right;
+  font-size: 1.25rem; }
+
 .fa-star, .fa-code-fork {
   margin: 5px 5px 5px 15px; }
+
+div.repo:nth-child(1) {
+  border-top: 1px solid #ddd; }
 
 .repo {
   font-size: 2rem;
@@ -103,7 +219,11 @@ header {
 
 header {
   background-color: #eee;
+  margin-bottom: 20px;
   padding-bottom: 10px; }
+
+#profilePicThumbnail {
+  width: 20px; }
 
 #headerLeft {
   float: left;
@@ -118,56 +238,79 @@ header {
 #headerRight {
   float: right;
   display: inline-block;
-  margin-top: 10px;
-  line-height: 2; }
+  line-height: 2;
+  margin-top: 5px; }
 
-.sidebarLeft {
-  margin-top: 20px; }
-  .sidebarLeft h1 {
-    margin-top: 10px;
-    margin-bottom: 5px; }
-  .sidebarLeft h5 {
-    margin-top: 0; }
-
-#profilePic {
-  width: 230px; }
-  #profilePic img {
-    border-radius: 5px; }
-
-.fa-github {
-  float: left;
-  margin-right: 10px;
-  margin-top: 12px; }
-
-header {
+#navPlusButton {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
   background-color: #eee;
-  padding-bottom: 10px; }
+  font-size: 2rem;
+  padding-bottom: 6px; }
 
-#headerLeft {
-  float: left;
-  display: inline-block;
-  margin-top: 10px;
-  line-height: 2; }
-  #headerLeft .btn {
-    text-decoration: none;
-    font-weight: bolder;
-    color: black; }
-
-#headerRight {
-  float: right;
-  display: inline-block;
-  margin-top: 10px;
-  line-height: 2; }
-
-.sidebarLeft {
-  margin-top: 20px; }
-  .sidebarLeft h1 {
-    margin-top: 10px;
-    margin-bottom: 5px; }
-  .sidebarLeft h5 {
-    margin-top: 0; }
+#picDropdownButton {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  background-color: #eee;
+  padding: 0; }
 
 #profilePic {
-  width: 230px; }
-  #profilePic img {
-    border-radius: 5px; }
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #666; }
+
+.nameInfo {
+  border-bottom: 1px solid #ddd; }
+
+.userInfo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #ddd; }
+  .userInfo p, .userInfo a {
+    display: block;
+    margin-bottom: 0; }
+
+#name {
+  font-size: 2rem; }
+
+#username {
+  color: #666; }
+
+.fa-map-marker, .fa-link, .fa-envelope-o {
+  color: black;
+  margin: 5px 15px 5px 5px; }
+
+.panel {
+  border: none;
+  padding: 5px 0;
+  height: 55px;
+  box-shadow: none;
+  margin-bottom: 5px; }
+  .panel .navbar-left {
+    padding-left: 0; }
+  .panel .navbar-right {
+    display: inline-block;
+    list-style: none;
+    margin: 0; }
+    .panel .navbar-right li {
+      display: inline-block;
+      padding: 15px 0px 10px 10px; }
+
+.info {
+  float: right;
+  font-size: 1.25rem; }
+
+.fa-star, .fa-code-fork {
+  margin: 5px 5px 5px 15px; }
+
+div.repo:nth-child(1) {
+  border-top: 1px solid #ddd; }
+
+.repo {
+  font-size: 2rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd; }
